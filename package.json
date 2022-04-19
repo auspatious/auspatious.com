@@ -10,7 +10,8 @@
         "build:scss": "node scripts/build-scss.js",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+        "start:debug": "npm run build && node scripts/start-debug.js",
+        "push": "git subtree push --prefix dist origin gh-pages"
     },
     "description": "A stylish portfolio HTML template built with Bootstrap",
     "keywords": [
