@@ -3,7 +3,6 @@ name: Build and Push to GitHub Pages
 on:
   push:
     branches:
-      - master
       - main
 
 jobs:
@@ -25,7 +24,9 @@ jobs:
             ${{ runner.os }}-npm-
       - name: Install Dependencies
         id: npm-install
-        run: npm install
+        run: |
+          npm install
+          ls dist
       - name: Build optimized bundle
         id: build-bundle
         run: npm run build
