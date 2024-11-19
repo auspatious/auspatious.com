@@ -1,6 +1,6 @@
 /*!
 * Start Bootstrap - Auspatious v6.0.5 (https://startbootstrap.com/theme/stylish-portfolio)
-* Copyright 2013-2023 Start Bootstrap
+* Copyright 2013-2024 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
 */
 window.addEventListener('DOMContentLoaded', event => {
